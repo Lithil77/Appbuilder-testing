@@ -1,0 +1,18 @@
+{
+  "app-builder-NodeServerUrl": "http://localhost:3001",
+  "downloaded-app-ServerUrl": "http://14.142.106.210:3001",
+  "AuthenticationURL": "http://14.142.106.210:8081",
+  "dashBoardApiUrl": "http://14.142.106.210:8080",
+  "feature-Info-Styles": {
+    "Fill": "rgb(255, 255, 0,0.7)",
+    "Stroke": "rgb(78, 3, 125,0.7)",
+    "Circle-Style-Fill": "rgb(134, 45, 134,0.7)",
+    "Circle-Style-Stroke": "rgb(161, 23, 207,0.7)"
+  },
+  "S1412WindDataLayerName": "S-1412",
+  "GebcoUrl": "https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/mapserv",
+  "BingMap-Key": "AtRJu52pIf1CINdLfRGGJz27bXzXkGc8STzexLhnwtQecuzCnF-C_4RQI5KNKA88",
+  "SaiTimerApiUrl": "http://sailtimerdataapi.eastus.azurecontainer.io:8080/dataapi?",
+  "AppBuilderPort": "3001",
+  "externalDownloadedPort": "3001"
+}

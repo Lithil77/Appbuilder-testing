@@ -1,0 +1,68 @@
+{
+            "name": "Appbuilder testing",
+            "version": "0.1.0",
+            "private": true,
+            "dependencies": {
+                "@testing-library/jest-dom": "^5.16.5",
+                "@testing-library/react": "^13.4.0",
+                "@testing-library/user-event": "^13.5.0",
+                "bootstrap-icons": "^1.10.5",
+                "drag-react": "^1.1.1",
+                "datatables.net-dt": "^2.0.0",
+                "datatables.net-bs5": "^2.0.1",
+                "framer-motion": "^10.15.0",
+                "multer": "^1.4.5-lts.1",
+                "node-sass": "^9.0.0",
+                "ol": "^7.4.0",
+                "react": "^18.2.0",
+                "react-color": "^2.19.3",
+                "react-datepicker": "^4.21.0",
+                "react-dom": "^18.2.0",
+                "react-draggable": "^4.4.6",
+                "react-icons": "^4.10.1",
+                "react-paginate": "^8.2.0",
+                "react-router-dom": "^6.14.1",
+                "react-scripts": "5.0.1",
+                "react-shimmer-effects": "^1.0.3",
+                "react-bootstrap-typeahead": "^6.2.3",
+                "react-syntax-highlighter": "^15.5.0",
+                "react-toastify": "^10.0.4",
+                "react-treeview": "^0.4.7",
+                "styled-components": "^6.1.1",
+                "axios": "^1.5.0",
+                "express": "^4.18.2",
+                "cors": "^2.8.5",
+                "web-vitals": "^2.1.4"
+            },
+            "scripts": {
+                "start": "npm-run-all --parallel start:server start:react",
+                "start:server": "cd src && node Server.js",
+                "start:react": "react-scripts start",
+                "build": "react-scripts build"
+            },
+            "eslintConfig": {
+                "extends": [
+                    "react-app",
+                    "react-app/jest"
+                ]
+            },
+            "browserslist": {
+                "production": [
+                    ">0.2%",
+                    "not dead",
+                    "not op_mini all"
+                ],
+                "development": [
+                    "last 1 chrome version",
+                    "last 1 firefox version",
+                    "last 1 safari version"
+                ]
+            },
+            "devDependencies": {
+                "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+                "babel-plugin-module-resolver": "^5.0.0",
+                "bootstrap": "v5.1",
+                "npm-run-all": "^4.1.5",
+                "react-bootstrap": "^2.8.0"
+            }
+        }

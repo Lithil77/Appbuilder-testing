@@ -1,0 +1,9 @@
+// overrides the bootstrap theme variables
+
+$dark: #1E3A8A;
+$primary: #1E3A8A;
+$light: #FFFFFF;
+
+// import bootstrap styles ate the bottom
+@import "~bootstrap/scss/bootstrap";
+
